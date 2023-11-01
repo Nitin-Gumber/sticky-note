@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gumber Keep -web</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body class="bg-slate-100">
+    <nav
+      class="w-full h-12 flex items-center bg-yellow-500 shadow-[0_3px_10px_rgb(0,0,0,0.2)] text-xl font-serif px-5 md:h-14 md:text-2xl md:px-7"
+    >
+      <p>&#128211;</p>
+      <h3 class="px-1">Gumber Keep</h3>
+    </nav>
+
+    <div class="btn">
+      <button
+        class="bg-yellow-500 p-2 rounded-xl text-lg font-semibold absolute right-2 top-16 md:right-4 md:top-20 md:text-xl hover:bg-yellow-400 transition-all ease-linear"
+      >
+        Add Note
+      </button>
+    </div>
+
+    <div class="w-[14.8rem] h-[17rem] bg-white relative top-4 md:top-6 md:left-6 left-4">
+      <div class="text-xl font-bold absolute top-[14rem] right-[1rem]">
+        <button><i class="bg-green-500 p-2 rounded-full hover:bg-white hover:text-green-500 transition-all fa-regular fa-pen-to-square"></i></button>
+        <button><i class="bg-red-500 p-2 rounded-full hover:bg-white hover:text-red-500 transition-all fa-solid fa-trash"></i></button>
+      </div>
+      <div class="">
+        <textarea class="w-[14.8rem] h-[17rem] p-2"></textarea>
+      </div>
+    </div>
+  </body>
+</html>
