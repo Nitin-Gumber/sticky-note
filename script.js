@@ -28,10 +28,10 @@ const addNewNote = (text = "") => {
           ></i>
         </button>
       </div>
-      <div class="${text ? "" : "hidden"} p-2 main"></div>  
+      <div class="${text ? '' : 'hidden'} p-2 h-[13rem] w-full overflow-auto border-2 main"></div>  
     <textarea class="${
-      text ? "hidden" : ""
-    } w-[14.8rem] h-[13rem] p-2 pb-14"></textarea>
+      text ? 'hidden' : ''
+    } w-[14.8rem] h-[13rem] p-2  pb-14"></textarea>
     </div>
       `;
 
